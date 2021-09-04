@@ -1,17 +1,17 @@
 import React from 'react'
 import NavBar from './NavBar'
-import '../styles/global.css'
+import Footer from './Footer'
+import { Container } from "@chakra-ui/react"
 
 export default function Layout({ children }) {
     return (
-        <div>
+        <div >
             <NavBar />
-            <div>
+            <Container maxW="container.xl">
                 {children}
-            </div>
-            <footer>
-                <p>Copyrights!</p>
-            </footer>
+            </Container>
+
+            <Footer />
         </div>
     )
 }
