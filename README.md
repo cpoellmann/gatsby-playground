@@ -4,5 +4,5 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby Testpage with choc ui components
+  Gatsby Testpage built with chakra and choc ui 
 </h1>
